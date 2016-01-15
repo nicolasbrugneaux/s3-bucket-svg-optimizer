@@ -1,0 +1,16 @@
+{
+  "name": "s3-bucket-svg-optimizer",
+  "version": "1.0.0",
+  "description": "Optimize all your svg in-place in your s3 bucket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nnicolas.brugneaux@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.2.30",
+    "dotenv": "^1.2.0",
+    "svgo": "^0.6.1"
+  }
+}
